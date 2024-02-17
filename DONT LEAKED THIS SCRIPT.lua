@@ -54,4 +54,16 @@ elseif game.PlaceId == 9020359053 then
     Section:NewButton("Dex v4", "INFO", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
     end)
+
+    local Section = Tab:NewSection("DONT STEALING MY LEAKED")
+
+    Section:NewButton("rejoin", "INFO", function()
+    game:GetService("TeleportService"):Teleport(9020359053)
+    end)
+
+    local Section = Tab:NewSection("WHY YOU STEALING")
+
+    Section:NewButton("back to sb", "INFO", function()
+    game:GetService("TeleportService"):Teleport(6403373529)
+    end)
 end
